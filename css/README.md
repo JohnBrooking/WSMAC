@@ -1,1 +1,1 @@
-Cascading Style Sheet files
+Cascading Style Sheet files, including bootstrap css.
