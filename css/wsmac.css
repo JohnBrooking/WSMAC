@@ -1,0 +1,66 @@
+/* WSMAC primary stylesheet */
+
+body {
+	margin-top: 0; /* why not working? */
+	color: white;
+	background-image: url("../images/DoubleYellow.png");
+	background-repeat: repeat-x;
+	background-position: 0 95px;
+	background-color: black; /* #333; */
+	font-family: Verdana, sans-serif;
+	font-size: 14pt;
+}
+
+H2 {
+	margin-top: 1em;
+}
+
+H1#title {
+	padding: 1em;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* Navbar links: Light grey, hover white and underline */
+
+A.nav-link, A.nav-link:visited {
+	color: #CCC;
+	background-color: black;
+}
+
+A.nav-link:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* General links except home page: light blue background */
+
+#body A, DIV#body A:visited {
+	color: black;
+	text-decoration: none;
+	background-color: #bbf;
+}
+
+#body A:hover {
+	text-decoration: underline;
+	background-color: white;
+}
+
+/* Style HR tag like pre-HTML5 tag */
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}
