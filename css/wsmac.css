@@ -34,9 +34,9 @@ A.nav-link:hover {
 	text-decoration: underline;
 }
 
-/* General links except home page: light blue background */
+/* General links except most of home page, plus connection box on home page: light blue background */
 
-#body A, DIV#body A:visited {
+#body A, #connect A, #body A:visited, #connect A:visited {
 	color: black;
 	text-decoration: none;
 	background-color: #bbf;
