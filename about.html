@@ -1,66 +1,50 @@
-/* WSMAC primary stylesheet */
+<!DOCTYPE HTML>
+<html lang='en'>
 
-body {
-	margin-top: 0; /* why not working? */
-	color: white;
-	background-image: url("../images/DoubleYellow.png");
-	background-repeat: repeat-x;
-	background-position: 0 95px;
-	background-color: black; /* #333; */
-	font-family: Verdana, sans-serif;
-	font-size: 14pt;
-}
+<head>
+	<meta charset="utf-8"/>
+	<base target="_blank"/>
+	
+	<script src="js/jquery/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
 
-H2 {
-	margin-top: 1em;
-}
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/wsmac.css"/>
 
-H1#title {
-	padding: 1em;
-	padding-bottom: 0;
-	margin-bottom: 30px;
-	text-align: center;
-}
+	<title>WSMAC - About</title>
+</head>
 
-/* Navbar links: Light grey, hover white and underline */
+<body>
 
-A.nav-link, A.nav-link:visited {
-	color: #CCC;
-	background-color: black;
-}
+	<nav class='navbar navbar-expand-sm' id='menu'>
+	
+		<img src='images/Logo_sm.jpg' class='rounded' alt='WSMAC logo' height='75' style='margin-right: 20px'/>
+		
+		<ul class='navbar-nav mr-auto'>
+			<li class='nav-item'><a class='nav-link' target='_self' href='index.html'>Home</a></li>
+			<li class='nav-item'><a class='nav-link' target='_self' href='about.html'>About</a></li>
+			<li class='nav-item'><a class='nav-link' target='_self' href='contact.html'>Contact</a></li>
+			<li class='nav-item'><a class='nav-link' target='_self' href='resources.html'>Resources</a></li>
+			<li class='nav-item'><a class='nav-link' target='_self' href='committee.html'>Committee</a></li>
+		</ul>
 
-A.nav-link:hover {
-	color: white;
-	text-decoration: underline;
-}
+		<img src='images/navbar_decoration.jpg' alt='a graphic illustrating a bicycle shared lane marker, crosswalk, and yellow caution signs for wheelchair user and pedestrian' height='90'/>
 
-/* General links except most of home page, plus connection box on home page: light blue background */
+	</nav>
+	
+	<div id='body' class='container'>		
+		
+		<h1 id='title'>About WSMAC</h1>	
 
-#body A, #connect A, #body A:visited, #connect A:visited {
-	color: black;
-	text-decoration: none;
-	background-color: #bbf;
-}
-
-#body A:hover {
-	text-decoration: underline;
-	background-color: white;
-}
-
-/* Style HR tag like pre-HTML5 tag */
-
-hr {
-   display: block;
-   position: relative;
-   padding: 0;
-   margin: 8px auto;
-   height: 0;
-   width: 100%;
-   max-height: 0;
-   font-size: 1px;
-   line-height: 0;
-   clear: both;
-   border: none;
-   border-top: 1px solid #aaaaaa;
-   border-bottom: 1px solid #ffffff;
-}
+		<h2>Mission</h2>
+		
+		<p>WSMAC's mission is to "advocate and educate" to make Westbrook's roads safer for motorists, bicyclists, and pedestrians alike.</p>
+			
+		<h2>History</h2>
+		
+		<p>WSMAC began with a Facebook post in the fall of 2016 concerning the safety of the crosswalk at Main and Stroudwater Streets in Westbrook. Neighborhood resident <a href='mailto:leeleeprince51@gmail.com'>Leelee Prince</a>, now WSMAC co-chair along with bicyclist <a href='mailto:johnbrooking4@gmail.com'>John Brooking</a>, expressed frustration with repeated close calls with cars while attempting to cross the street in her wheelchair. Several friends responded and starting talking about forming a group to try to do something to make streets safer for all users. We began meeting regularly in 2017, at the same that the Maine DOT chose Westbrook as the first community in which to hold <a href='https://bangordailynews.com/bdn-maine/community/drivers-and-pedestrians-given-a-heads-up-from-mbhs-mdot/' target='_blank'>a series of public workshops</a> on pedestrian safety. Since then, we have become a presence at Westbrook Together Days, the Westbrook Kids Safety Fair, and other events promoting our message of advocating and educating to make Westbrook's roads safer.</p>
+		
+	</div>
+	
+</body>
+</html>
