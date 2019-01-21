@@ -1,12 +1,6 @@
 /* WSMAC primary stylesheet */
 
 body {
-	margin-top: 0; /* why not working? */
-	color: white;
-	background-image: url("../images/DoubleYellow.png");
-	background-repeat: repeat-x;
-	background-position: 0 95px;
-	background-color: black; /* #333; */
 	font-family: Verdana, sans-serif;
 	font-size: 14pt;
 }
@@ -22,7 +16,21 @@ H1#title {
 	text-align: center;
 }
 
-/* Navbar links: Light grey, hover white and underline */
+/* Navbar: Black background, light grey links with white hover and underline */
+
+#menu {
+	color: white;
+	background-color: black;
+	padding-bottom: 0;
+}
+
+#centerline {
+	padding-bottom: 10px;
+	background-color: black;
+	background-image: url("../images/DoubleYellow.png");
+	background-repeat: repeat-x;
+	background-position: 0;
+}
 
 A.nav-link, A.nav-link:visited {
 	color: #CCC;
@@ -39,12 +47,12 @@ A.nav-link:hover {
 #body A, #connect A, #body A:visited, #connect A:visited {
 	color: black;
 	text-decoration: none;
-	background-color: #bbf;
+	background-color: #ff9;
 }
 
-#body A:hover {
+#body A:hover, #connect A:hover {
 	text-decoration: underline;
-	background-color: white;
+	background-color: #ff0;
 }
 
 /* Style HR tag like pre-HTML5 tag */
