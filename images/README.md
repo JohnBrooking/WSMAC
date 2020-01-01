@@ -1,1 +1,0 @@
-Primary site images
