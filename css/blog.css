@@ -1,0 +1,26 @@
+/* blog article page classes */
+
+.marquee {
+	font-weight: bold;
+	font-size: 28pt;
+}
+
+.blogListing {
+	margin-bottom: 20px;
+}
+
+.blogTitle {
+	margin-top: 20px;
+	font-size: xx-large;
+	margin-bottom: 0;
+}
+
+.blogByline {
+	margin-top: 0;
+}
+
+.blogLead {
+	margin-top: 10px;
+	color: #888;
+	font-style: italic;
+}
